@@ -1,0 +1,20 @@
+{
+  "name": "juego",
+  "version": "1.0.0",
+  "description": "juego apps moviles",
+  "source": "src/index.html",
+  "scripts": {
+    "clean:dev": "rimraf ./dist",
+    "clean:prod": "rimraf ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "dev": "npm run clean:dev && parcel",
+    "prod": "npm run clean:prod && parcel build",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}
